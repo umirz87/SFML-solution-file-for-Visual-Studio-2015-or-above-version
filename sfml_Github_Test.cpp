@@ -32,5 +32,5 @@ void main()
 			window.display();
 		}
 	}
-	system("pause");
+	//system("pause");
 }
