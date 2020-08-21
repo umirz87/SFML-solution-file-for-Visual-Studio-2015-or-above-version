@@ -6,6 +6,7 @@ void main()
 	sf::RenderWindow window(sf::VideoMode(500, 500), "title", sf::Style::Default);//this line creates a window for graphics
 	sf::RectangleShape rect(sf::Vector2f(100.0f,100.0f));//this is creating a rectangular shape
 	rect.setFillColor(sf::Color::Red); //this sets the shape fill color according to your choice
+	rect.setOutlineColor(sf::Color::Blue);
 	//this whole while is used for window event checking while opening 
 	while (window.isOpen())
 	{
